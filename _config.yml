@@ -1,0 +1,56 @@
+# config
+cover: /img/bg_img.jpg
+logo: /img/logo.png
+top_saying:
+- title: He who seeks may easily get lost himself. All isolation is wrong.
+- content: 不要哀求，学会争取，若是如此，终有所获。
+bottom_saying: 只看到自己理想的人，根本就不可能理解那些因为自己没有理想而迷惘苦恼的人。
+# Content
+excerpt_link: Read More
+fancybox: true  #Open fancybox or not
+
+rss: /atom.xml
+
+highlightjs: vs
+
+#Works
+works:
+- works_name: Bookmarks
+  works_url: https://hecate-xw.github.io/bookmarks/
+- works_name: Freescale
+  works_url: https://github.com/hecate-xw/PointRace
+
+#duoshuo name
+duoshuo: hypocrisy
+
+# Miscellaneous
+github: https://github.com/hecate-xw
+twitter: https://twitter.com/hecate_xw
+google: https://plus.google.com/u/0/102092367803193537348/
+weibo: http://weibo.com/u/2613432527
+
+#about  timeline
+timeline:
+- num: 1
+  word: 2013年尝试新浪博客、CSDN
+- num: 2
+  word: 2014年使用sae的wordpress，也用过Github Pages，购买域名hecate-xw.com
+- num: 3
+  word: 2015年改用Hexo，更换域名为hypocrisy.info
+- num: 4
+  word: 博客只是一种记录方式，希望可以不再折腾
+
+#Links
+links:
+- name: Lofter
+  link: http://drhypocrisy.lofter.com/
+- name: Tracy_梓朋
+  link: http://www.purpleroc.com/
+- name: Kieran
+  link: http://go.kieran.top/
+
+#Analytics
+google_analytics:
+  enable: true
+  id: UA-65629585-1  # your google analytics ID.
+  site: auto                  # your google analytics site or set the value as auto.
