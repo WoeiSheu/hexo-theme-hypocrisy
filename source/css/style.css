@@ -135,15 +135,22 @@ section {
 	padding-top: 60px;
 	z-index: 4;
 }
-a,
+
 a:hover,
-a:active,
 a:focus,
-a:visited,
+a:active {
+	color: #06816d;
+	text-decoration: blink;
+}
 a:link {
-	color: #151515;
+	color: #85b7bb;
 	text-decoration: none;
 }
+a:visited {
+	color: #f3eb6f;
+	text-decoration: none;
+}
+
 [class*="col-"] {
 	padding-top: 15px;
 	padding-bottom: 15px;

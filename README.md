@@ -1,6 +1,6 @@
 # hypocrisy
 hypocrisy is a responsive design theme for Hexo.
-This theme is based on [Kieran's Blog](http://go.kieran.top)
+**This theme is based on [Kieran's Blog](http://go.kieran.top)**
 I changed some css style,
 add tags and sitemap in sidebar,
 add search on the nav,
@@ -22,7 +22,7 @@ git pull
 ###Config
 ####Theme_config.yml
 ```
-cover: /img/bg_img.jpg  #This is no use currently
+cover: /img/bg_img.jpg  #This is no use currently, In fact, it is 01.jpg that represent the cover.
 logo: /img/logo.png
 top_saying:
 - title: YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.
@@ -36,9 +36,9 @@ rss: /atom.xml
 highlightjs: vs
 
 works:
-- works_name: XXX1
+- works_name: Project01
   works_url: /
-- works_name: XXX2
+- works_name: Project02
   works_url: /
   
 duoshuo: duoshuo_name
@@ -62,13 +62,13 @@ timeline:
 links:
 - name: Kieran
   link: http://go.kieran.top/
-- name: Name
+- name: Hypocrisy
   link: http://hypocriys.info/
 ```
 ####Hexo_config.yml
 change some code to enable archives page
 ```
-# Archives
+# Archives                                  #This choice is no use, too. Don not change them.
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
@@ -78,14 +78,14 @@ tag: 1
 ```
 ###Icon
 Seclet icon which you like in<code>\hypocrisy\source\css\iconList.css</code>  
-![](http://kieran-hexo.qiniudn.com/hexo_14_1.png)  
-![](http://kieran-hexo.qiniudn.com/hexo_14_2.png)
+![](./decription/01.png)  
+![](./decription/02.png)
 ###Screen
 Show
-![](http://kieran-hexo.qiniudn.com/hexo_14_3.png)
+![](./decription/03.png)
   
 Content
-![](http://kieran-hexo.qiniudn.com/hexo_14_4.png)
+![](./decription/04.png)
 ###Others
 If you like this theme, [Fork](https://github.com/hecate-xw/hexo-theme-hypocrisy/fork) && Star.
 Come on.
