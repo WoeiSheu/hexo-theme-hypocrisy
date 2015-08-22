@@ -1569,7 +1569,7 @@ hr.byline-accent {
 }
 
 /* *******************************************************
-* Full-width image section, (all pages)
+* Full-width image section, (except article pages.)
 ******************************************************* */
 
 #fullwidth-img {
@@ -3353,3 +3353,16 @@ footer .footer_bottom {
 .icon-sina-weibo:before { content: "\e666"; }
 .icon-github:before { content: "\e636"; }
 /*---------------- END ------------------------*/
+
+/*Hypocrisy Added on 08/22/2015*/
+.accessories {
+	position: fixed;
+	left: 12px;
+	top: 300px;
+}
+@media (max-width: 960) {
+	.accessories {
+		display: none;
+	}
+}
+/**/

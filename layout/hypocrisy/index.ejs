@@ -1,6 +1,12 @@
 <!-- ============================ Content =========================== -->
 
 <section id="intro">
+    <div class="accessories">
+        <div class="music">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=256 height=86 src="http://music.163.com/outchain/player?type=2&id=30854833&auto=1&height=66"></iframe>
+        </div>
+    </div>
+    
     <div class="container">
         <% page.posts.each(function(post) { %>
         <div class="row">
@@ -35,6 +41,7 @@
           <% if (page.next) { %><a class="pull-right" href="<%- url_for(page.next_link) %>">Older Posts →</a><% } %>
         </nav>
     </div>
+    <div clear="both"></div>
 </section>
 <section id="statement">
     <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">

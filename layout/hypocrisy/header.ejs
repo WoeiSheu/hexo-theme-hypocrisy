@@ -123,6 +123,7 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
         <!-- ============================ Hero Image =========================== -->
+        <% if (page.current) { %>
 
         <section id="hero" class="scrollme">
             <div class="container-fluid element-img" style="background: url(<%- config.root %>img/1.jpg) no-repeat center center fixed;background-size: cover">
@@ -147,5 +148,7 @@
         <!-- Height spacing helper -->
         <div class="heightblock"></div>
         <!-- // End height spacing helper -->
+
+        <% } %>
 
         <!-- ============================ END Hero Image =========================== -->

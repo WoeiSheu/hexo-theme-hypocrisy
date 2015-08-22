@@ -1,12 +1,19 @@
 # hypocrisy
 hypocrisy is a responsive design theme for Hexo.
 **This theme is based on [Kieran's Blog](http://go.kieran.top)**
+
 I changed some css style,
 add tags and sitemap in sidebar,
 add search on the nav,
 add google analytics and fancybox.
 and there are some other changes, but i cannot list all.
+
+In addition, I remove the scroll image for articles, only remains the scroll image in index pages.
+
+And I add music in homepages.
+
 [Demo| Hypocrisy's Blog](http://hypocrisy.info)
+
 ###Install
 Execute the following command and modify theme in <code>_config.yml</code> to <code>hypocrisy</code>.
 ```
