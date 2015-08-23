@@ -3360,7 +3360,7 @@ footer .footer_bottom {
 	left: 12px;
 	top: 300px;
 }
-@media (max-width: 960) {
+@media (max-width: 960px) {
 	.accessories {
 		display: none;
 	}
