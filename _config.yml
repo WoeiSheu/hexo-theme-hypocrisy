@@ -54,3 +54,8 @@ google_analytics:
   enable: true
   id: UA-65629585-1  # your google analytics ID.
   site: auto                  # your google analytics site or set the value as auto.
+
+#Music
+music:
+  enable: true
+  link: "http://music.163.com/outchain/player?type=2&id=30854833&auto=0&height=66"

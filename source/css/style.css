@@ -3361,8 +3361,8 @@ footer .footer_bottom {
 	top: 300px;
 }
 @media only screen and (max-width: 959px) {
-    .accessories {
-        display: none;
-    }
+	.accessories {
+		display: none;
+	}
 }
 /**/

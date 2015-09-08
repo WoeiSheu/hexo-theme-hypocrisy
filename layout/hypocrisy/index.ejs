@@ -1,12 +1,14 @@
 <!-- ============================ Content =========================== -->
 
 <section id="intro">
+    <% if (theme.music.enable){ %>
     <div class="accessories">
         <div class="music">
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=256 height=86 src="http://music.163.com/outchain/player?type=2&id=30854833&auto=1&height=66"></iframe>
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=256 height=86 src="<%= theme.music.link %>" ></iframe>
         </div>
     </div>
-    
+    <% } %>
+
     <div class="container">
         <% page.posts.each(function(post) { %>
         <div class="row">

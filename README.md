@@ -10,7 +10,7 @@ and there are some other changes, but i cannot list all.
 
 In addition, I remove the scroll image for articles, only remains the scroll image in index pages.
 
-And I add music in homepages.
+And I add google_analytics and music.
 
 [Demo| Hypocrisy's Blog](http://hypocrisy.info)
 
@@ -39,7 +39,7 @@ bottom_saying: 虽然还没想好写点什么，但是总觉得这里放句话�
 excerpt_link: Read More
   
 rss: /atom.xml
-  
+
 highlightjs: vs
 
 works:
@@ -71,6 +71,16 @@ links:
   link: http://go.kieran.top/
 - name: Hypocrisy
   link: http://hypocriys.info/
+
+google_analytics:
+  enable: true
+  id: UA-*******-1  # your google analytics ID.
+  site: auto            # your google analytics site or set the value as auto.```
+
+music:
+  enable: true
+  link: "http://music.163.com/outchain/player?type=2&id=30854833&auto=0&height=66"  #or others
+
 ```
 ####Hexo_config.yml
 change some code to enable archives page
