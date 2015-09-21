@@ -81,6 +81,12 @@ music:
   enable: true
   link: "http://music.163.com/outchain/player?type=2&id=30854833&auto=0&height=66"  #or others
 
+site_verification:
+- name: google-site-verification
+  content: your own content
+- name: baidu-site-verification
+  content: your own content
+
 ```
 ####Hexo_config.yml
 change some code to enable archives page

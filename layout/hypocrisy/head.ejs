@@ -26,6 +26,13 @@
     <meta name="description" content="<%- config.subtitle %>" />
     <meta name="keywords" content="<%- config.keywords %>" />
 
+    <!-- Add on 21/09/2015 by Hypocrisy -->
+    <% if (theme.site_verification && theme.site_verification.length){ %>
+      <% theme.site_verification.forEach(function(item){ %>
+        <meta name="<%- item.name %>" content="<%- item.content %>" />
+      <% }); %>
+    <% } %>
+
     <!-- Favicon, (keep icon in root folder) -->
     <link rel="Shortcut Icon" href="<%- config.root %>img/favicon.ico" type="image/ico">
 

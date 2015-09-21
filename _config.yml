@@ -58,4 +58,11 @@ google_analytics:
 #Music
 music:
   enable: true
-  link: "http://music.163.com/outchain/player?type=2&id=30854833&auto=0&height=66"
+  link: "http://music.163.com/outchain/player?type=2&id=16593579&auto=0&height=66"
+
+#Verify
+site_verification:
+- name: google-site-verification
+  content: pXClSH-TmmcJ119KIxaRaceysjF6p07Pmi78mQ8raj0
+- name: baidu-site-verification
+  content: VveDcLrMqq
