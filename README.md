@@ -29,7 +29,7 @@ git pull
 ###Config
 ####Theme_config.yml
 ```
-cover: /img/bg_img.jpg  #This is no use currently, In fact, it is 01.jpg that represent the cover.
+cover: /img/bg_img.jpg
 logo: /img/logo.png
 top_saying:
 - title: YOU'VE MADE A <span>BRAVE</span> DECISION, WELCOME.

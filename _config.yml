@@ -1,5 +1,5 @@
 # config
-cover: /img/bg_img.jpg
+cover: /img/background.jpg
 logo: /img/logo.png
 top_saying:
 - title: He who seeks may easily get lost himself. All isolation is wrong.
@@ -65,4 +65,4 @@ site_verification:
 - name: google-site-verification
   content: pXClSH-TmmcJ119KIxaRaceysjF6p07Pmi78mQ8raj0
 - name: baidu-site-verification
-  content: VveDcLrMqq
+  content: 9IJy0pSx4z
