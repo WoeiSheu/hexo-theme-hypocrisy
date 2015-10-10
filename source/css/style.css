@@ -3421,3 +3421,18 @@ footer .footer_bottom {
     }
 }
 /*Above is for music.*/
+
+/*Added by Hypocrisy on 10/06/2015*/
+table {
+    margin: auto;
+    table-layout: fixed;
+}
+th {
+    border: 1px solid blue;
+    width: 10%;
+}
+td {
+    border: 1px solid blue;
+    width: 10%;
+}
+/*Above is for table border*/
