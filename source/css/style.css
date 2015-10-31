@@ -3423,15 +3423,15 @@ footer .footer_bottom {
 /*Above is for music.*/
 
 /*Added by Hypocrisy on 10/06/2015*/
-table {
+.col-md-8 > table {
     margin: auto;
     table-layout: fixed;
 }
-th {
+.col-md-8 > table th {
     border: 1px solid blue;
     width: 10%;
 }
-td {
+.col-md-8 > table td {
     border: 1px solid blue;
     width: 10%;
 }
