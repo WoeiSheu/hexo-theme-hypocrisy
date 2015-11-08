@@ -26,12 +26,12 @@
     <meta name="description" content="<%- config.subtitle %>" />
     <meta name="keywords" content="<%- config.keywords %>" />
 
-    <!-- Add on 21/09/2015 by Hypocrisy -->
-    <% if (theme.site_verification && theme.site_verification.length){ %>
-      <% theme.site_verification.forEach(function(item){ %>
-        <meta name="<%- item.name %>" content="<%- item.content %>" />
-      <% }); %>
-    <% } %>
+<!-- Add on 21/09/2015 by Hypocrisy -->
+<% if (theme.site_verification && theme.site_verification.length){ %>
+  <% theme.site_verification.forEach(function(item){ %>
+    <meta name="<%- item.name %>" content="<%- item.content %>" />
+  <% }); %>
+<% } %>
 
     <!-- Favicon, (keep icon in root folder) -->
     <link rel="Shortcut Icon" href="<%- config.root %>img/favicon.ico" type="image/ico">
@@ -60,24 +60,6 @@
     <link href='http://fonts.useso.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.useso.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
     <![endif]-->
-
-    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
-    <script src="<%- config.root %>js/jquery-1.11.1.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
-
-    <!-- Load these in the <head> for quicker IE8+ load times -->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="<%- config.root %>js/html5shiv.min.js"></script>
-    <script src="<%- config.root %>js/respond.min.js"></script>
-    <![endif]-->
-
-
-
-
-
-
-
 
 
 
