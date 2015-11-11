@@ -48,6 +48,8 @@ links:
   link: http://www.purpleroc.com/
 - name: Kieran
   link: http://go.kieran.top/
+- name: Frantic1048
+  link: https://frantic1048.com
 
 #Analytics
 google_analytics:
@@ -65,4 +67,4 @@ site_verification:
 - name: google-site-verification
   content: pXClSH-TmmcJ119KIxaRaceysjF6p07Pmi78mQ8raj0
 - name: baidu-site-verification
-  content: 9IJy0pSx4z
+  content: 3TDbq2oYF4
